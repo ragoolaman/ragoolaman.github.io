@@ -10,7 +10,7 @@ title: ragoolaman's website!
 email: ragoolaman02@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The website for ragoolaman, with access to downloads, and information on any of his creations (IE games, etc)
-baseurl: "/downloads" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ragoolaman.github.io" # the base hostname & protocol for your site
 twitter_username: ragoolaman
 github_username:  ragoolaman
