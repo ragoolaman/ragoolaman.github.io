@@ -1,0 +1,39 @@
+#Container {
+	width:800px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:11px;
+	margin-bottom:21px;
+}
+#Header {
+	height:60px;
+	background-color:#CCC;
+}
+#Menu {
+	height:60px;
+	background-color:#666;
+}
+#SideBar {
+	width:150px;
+	height:400px;
+	background-color:#0C0;
+	float:left;
+}
+#MainBody {
+	width:650px;
+	height:400px;
+	background-color:#03C;
+	float:right;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+}
+#MainBody p {
+	text-decoration:none;
+	color:#FFF;
+}
+#Footer {
+	height:100px;
+	background-color:#CCC;
+	clear:both;
+}
