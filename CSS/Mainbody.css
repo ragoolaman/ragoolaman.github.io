@@ -9,6 +9,19 @@
 #Header {
 	height:60px;
 	background-color:#CCC;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#Header a:Hover {
+	color:#000;
+}
+#Header a {
+	color:#666;
+	text-decoration:none;
+	height:60px;
+	width:auto;
+}
+#Header h1 {
+	color:#666;
 }
 #Menu {
 	height:60px;
@@ -17,20 +30,20 @@
 #SideBar {
 	width:150px;
 	height:400px;
-	background-color:#0C0;
+	background-color:#667;
 	float:left;
 }
 #MainBody {
 	width:650px;
 	height:400px;
-	background-color:#03C;
+	background-color:#FFF;
 	float:right;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:17px;
 }
 #MainBody p {
+	margin-left:10px;
 	text-decoration:none;
-	color:#FFF;
 }
 #Footer {
 	height:100px;
