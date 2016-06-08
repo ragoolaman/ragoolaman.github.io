@@ -1,0 +1,26 @@
+#Menu {
+	height:60px;
+	background-color:#666;
+}
+#Menu ul {
+	margin:0;
+	padding:0;
+}
+#Menu li {
+	list-style-type:none;
+	float:left;
+	display:block;
+	width:150px;
+	height:60px;
+	text-align:center;
+	line-height:55px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:17px;
+}
+#Menu li a {
+	text-decoration:none;
+	color:#FFF;
+}
+#Menu li:Hover {
+	background-color:#CCC;
+}
