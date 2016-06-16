@@ -50,6 +50,10 @@
 	background-color:#CCC;
 	clear:both;
 }
+#Footer a {
+	float:right;
+	text-decoration:none;
+}
 #ImageBody {
 	width:650px;
 	height:400px;
@@ -57,4 +61,8 @@
 	float:right;
 	font-family:Tahoma, Geneva, sans-serif;
 	font-size:17px;
+}
+#ImageBody img {
+	width:auto;
+	height:auto;
 }
