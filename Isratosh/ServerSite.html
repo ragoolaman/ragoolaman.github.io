@@ -15,6 +15,24 @@ body {
 	margin-bottom: 0px;
 }
 </style>
+<style>
+  .dropown {
+  	position: relative;
+	display: inline-block;
+  }
+  .dropdown-content {
+  	display: none;
+	position: absolute;
+	background-color: #666;
+	min-width: 160px;
+	box-shadow : 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+  	display: block;
+  }
+</style>
 </head>
 <body>
 	<div id="Container">
@@ -34,6 +52,7 @@ body {
 			<ul>
 				<li><a href="http://216.105.170.142:1802">IRC</a></li>
 				<li><a href="https://ragoolaman.github.io">RAGOOLAMAN</a></li>
+<<<<<<< HEAD
 			 <li><div class="dropdown"> <span>REDDIT FEEDS</span> <div class="dropdown-content"> <ul>	
 					<li><a href="AskReddit.html">ASKREDDIT</a></li>
 					<li><a href="WorldNews.html">WORLD NEWS</a></li>
@@ -43,6 +62,27 @@ body {
 		</div>
 		<div id="MainBody">
 			
+=======
+			  <li><div class="dropdown">
+				<span>REDDIT FEEDS</span>
+				<div class="dropdown-content">
+				  <ul>	
+					<li><a href="redditFeed.html">ASKREDDIT</a></li>
+					<li><a href="#">WORLD NEWS</a></li>
+					<li><a href="#">SS13</a></li>
+				  </ul>
+				</div>
+		 		</div></li>
+			</ul>
+		</div>
+		<div id="MainBody">
+			<div class="dropdown">
+			  <span>Mouse over me</span>
+			  <div class="dropdown-content">
+				<p>Hello World!</p>
+			  </div>
+			</div>
+>>>>>>> origin/master
 		</div>
 		<div id="Footer"></div>
 	</div>
