@@ -16,6 +16,15 @@
 	text-decoration:none;
 	color:#FFF;
 }
+#SideBar span{
+  color:#FFF;
+}
+#SideBar span:Hover{
+  background-color:#CCC;
+}
 #SideBar li:Hover {
 	background-color:#CCC;
+}
+#dropdown {
+  background-color:#666;
 }
