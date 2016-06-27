@@ -15,6 +15,24 @@ body {
 	margin-bottom: 0px;
 }
 </style>
+<style>
+  .dropown {
+  	position: relative;
+	display: inline-block;
+  }
+  .dropdown-content {
+  	display: none;
+	position: absolute;
+	background-color: #F9F9F9;
+	min-width: 160px;
+	box-shadow : 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+  	display: block;
+  }
+</style>
 </head>
 <body>
 	<div id="Container">
@@ -38,7 +56,12 @@ body {
 			</ul>
 		</div>
 		<div id="MainBody">
-			<p>This is a test</p>
+			<div class="dropdown">
+			  <span>Mouse over me</span>
+			  <div class="dropdown-content">
+				<p>Hello World!</p>
+			  </div>
+			</div>
 		</div>
 		<div id="Footer"></div>
 	</div>
