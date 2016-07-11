@@ -1,5 +1,5 @@
 #Container {
-	width:800px;
+	width:auto;
 	height:auto;
 	margin-left:auto;
 	margin-right:auto;
@@ -8,6 +8,7 @@
 }
 #Header {
 	height:60px;
+	width:auto;
 	background-color:#CCC;
 	font-family:Tahoma, Geneva, sans-serif;
 }
@@ -24,7 +25,7 @@
 	color:#666;
 }
 #Menu {
-	height:60px;
+	height:auto;
 	background-color:#666;
 }
 #SideBar {
@@ -34,7 +35,7 @@
 	float:left;
 }
 #MainBody {
-	width:650px;
+	width:auto;
 	height:400px;
 	background-color:#FFF;
 	float:right;

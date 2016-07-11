@@ -1,5 +1,9 @@
 #Container {
-	width:300px;
+	width:500px;
+}
+#Menu {
+	width:auto;
+	height:500px;
 }
 #SideBar {
 	width:100px;
